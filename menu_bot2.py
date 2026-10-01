@@ -19,7 +19,7 @@ from aiogram.types import (
 # تنظیمات ربات
 # =========================================================
 
-TOKEN = "توکن‌ ربات"
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 OWNER = 5690205344
 
